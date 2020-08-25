@@ -20,7 +20,7 @@
         <module>jeecg-cloud-gateway</module>
 		<module>jeecg-cloud-system</module>
         <module>jeecg-cloud-monitor</module>
-      <module>demo</module>
+      <!--<module>demo</module>-->
   </modules>
 
 	<distributionManagement>
@@ -71,7 +71,7 @@
     </properties>
 
 	<dependencies>
-		<!--¼¯³Éspringmvc¿ò¼Ü²¢ÊµÏÖ×Ô¶¯ÅäÖÃ -->
+		<!--ï¿½ï¿½ï¿½ï¿½springmvcï¿½ï¿½Ü²ï¿½Êµï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ -->
 		<!--<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -137,7 +137,7 @@
 		   <version>${druid.version}</version>
 		</dependency>
 		
-		<!-- ¶¯Ì¬Êý¾ÝÔ´ -->
+		<!-- ï¿½ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½Ô´ -->
 		<dependency>
 		  <groupId>com.baomidou</groupId>
 		  <artifactId>dynamic-datasource-spring-boot-starter</artifactId>
@@ -155,7 +155,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.47</version>
+			<!--<version>5.1.47</version>-->
 			<scope>runtime</scope>
 		</dependency>
 		<!--  sqlserver-->
@@ -165,14 +165,14 @@
 		    <version>4.0</version>
 		    <scope>runtime</scope>
 		</dependency>
-		<!-- oracleÇý¶¯ -->
+		<!-- oracleï¿½ï¿½ï¿½ï¿½ -->
 		<dependency>
 		    <groupId>com.oracle</groupId>
 		    <artifactId>ojdbc6</artifactId>
 		    <version>11.2.0.3</version>
 			<scope>runtime</scope>
 		</dependency>
-        <!-- postgresqlÇý¶¯ -->
+        <!-- postgresqlï¿½ï¿½ï¿½ï¿½ -->
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
@@ -180,7 +180,7 @@
 			<scope>runtime</scope>
 		</dependency>
 
-		 <!-- Quartz¶¨Ê±ÈÎÎñ -->
+		 <!-- Quartzï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-quartz</artifactId>
@@ -193,7 +193,7 @@
 			<version>3.7.0</version>
 		</dependency>
 
-		<!-- Swagger APIÎÄµµ -->
+		<!-- Swagger APIï¿½Äµï¿½ -->
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger2</artifactId>
@@ -216,15 +216,15 @@
             <artifactId>commons-pool2</artifactId>
         </dependency>
         
-		<!-- ´úÂëÉú³ÉÆ÷ -->
-		<!-- Èç¹ûÏÂÔØÊ§°Ü£¬¿´Õâ¸öÁ´½Óhttp://jeecg-boot.mydoc.io/?t=345672 -->
+		<!-- ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -->
+		<!-- ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½Ü£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½http://jeecg-boot.mydoc.io/?t=345672 -->
 		<dependency>
 			<groupId>org.jeecgframework.boot</groupId>
 			<artifactId>codegenerate</artifactId>
 			<version>1.2.0</version>
 		</dependency>
 
-        <!-- AutoPoi Excel¹¤¾ßÀà-->
+        <!-- AutoPoi Excelï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-->
 		<dependency>
 			<groupId>org.jeecgframework</groupId>
 			<artifactId>autopoi-web</artifactId>
@@ -249,7 +249,7 @@
 			<artifactId>javax.servlet-api</artifactId>
 		</dependency>
 
-		<!-- miniÎÄ¼þ´æ´¢·þÎñ -->
+		<!-- miniï¿½Ä¼ï¿½ï¿½æ´¢ï¿½ï¿½ï¿½ï¿½ -->
 		<dependency>
 			<groupId>io.minio</groupId>
 			<artifactId>minio</artifactId>
@@ -271,7 +271,7 @@
 			<version>${guava.version}</version>
 		</dependency>
 
-		<!-- °¢ÀïÔÆ¶ÌÐÅ -->
+		<!-- ï¿½ï¿½ï¿½ï¿½ï¿½Æ¶ï¿½ï¿½ï¿½ -->
 		<dependency>
 			<groupId>com.aliyun</groupId>
 			<artifactId>aliyun-java-sdk-dysmsapi</artifactId>
@@ -285,7 +285,7 @@
 			<version>${aliyun.oss.version}</version>
 		</dependency>
 
-		<!-- µÚÈý·½µÇÂ¼ -->
+		<!-- ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¼ -->
 		<dependency>
 			<groupId>com.xkcoding.justauth</groupId>
 			<artifactId>justauth-spring-boot-starter</artifactId>
@@ -318,7 +318,7 @@
 				<artifactId>jeecg-cloud-system-api</artifactId>
 				<version>${jeecgboot.version}</version>
 			</dependency>
-	    	<!-- ÆßÅ£ÔÆSDK -->
+	    	<!-- ï¿½ï¿½Å£ï¿½ï¿½SDK -->
 			<dependency>
 				<groupId>com.qiniu</groupId>
 				<artifactId>qiniu-java-sdk</artifactId>
@@ -347,7 +347,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			 Ö¸¶¨JDK±àÒë°æ±¾ -->
+			 Ö¸ï¿½ï¿½JDKï¿½ï¿½ï¿½ï¿½æ±¾ -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -357,7 +357,7 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
-            <!-- ´ò°üÌø¹ý²âÊÔ -->
+            <!-- ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -->
             <plugin>
 		        <groupId>org.apache.maven.plugins</groupId>
 		        <artifactId>maven-surefire-plugin</artifactId>
@@ -365,7 +365,7 @@
 		          <skipTests>true</skipTests>
 		        </configuration>
 	        </plugin>
-	         <!-- ±ÜÃâfontÎÄ¼þµÄ¶þ½øÖÆÎÄ¼þ¸ñÊ½Ñ¹ËõÆÆ»µ -->
+	         <!-- ï¿½ï¿½ï¿½ï¿½fontï¿½Ä¼ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½Ê½Ñ¹ï¿½ï¿½ï¿½Æ»ï¿½ -->
 	         <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>

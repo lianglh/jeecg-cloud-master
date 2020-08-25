@@ -42,7 +42,7 @@ public class ShiroConfig {
     private String port="6379";
 
    /* @Value("${spring.redis.host}")*/
-    private String host="127.0.0.1";
+    private String host="101.132.192.111";
 
     /*@Value("${spring.redis.password}")*/
     private String redisPassword="";

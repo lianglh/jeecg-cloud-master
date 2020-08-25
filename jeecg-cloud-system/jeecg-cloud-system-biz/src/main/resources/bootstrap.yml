@@ -6,7 +6,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 127.0.0.1:8848
+        server-addr: 101.132.192.111:8848
       config:
         file-extension: yml
         server-addr: ${spring.cloud.nacos.discovery.server-addr}
@@ -23,8 +23,8 @@ spring:
           environment:
             spring:
               rabbitmq:
-                host: localhost
-                port: 5672
+                host: 101.132.192.111
+                port: 15672
                 username: guest
                 password: guest
                 virtual-host: /
